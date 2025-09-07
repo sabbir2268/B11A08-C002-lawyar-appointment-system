@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div className="card bg-base-100 image-full shadow-sm">
       <div>
-        <img src="/Public/assets/banner-img-1.png" className="w-full" />
+        <img src="/assets/banner-img-1.png" className="w-full" />
       </div>
 
       <div className="card-body text-center flex items-center justify-center">

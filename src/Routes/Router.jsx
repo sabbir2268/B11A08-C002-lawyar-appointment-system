@@ -14,22 +14,22 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        loader: () => fetch("/Public/Data/lawyersData.json"),
+        loader: () => fetch("/Data/lawyersData.json"),
         element: <Home></Home>,
       },
       {
         path: "/lawyerDetails/:id",
-        loader: () => fetch("/Public/Data/lawyersData.json"),
+        loader: () => fetch("/Data/lawyersData.json"),
         element: <LawyerDetails></LawyerDetails>,
       },
       {
         path: "/myBookings",
-        loader: () => fetch("/Public/Data/lawyersData.json"),
+        loader: () => fetch("/Data/lawyersData.json"),
         element: <MyBooking></MyBooking>,
       },
       {
         path: "/blogs",
-        loader: () => fetch("/Public/Data/BlogsData.json"),
+        loader: () => fetch("/Data/BlogsData.json"),
         element: <Blogs></Blogs>,
       },
     ],

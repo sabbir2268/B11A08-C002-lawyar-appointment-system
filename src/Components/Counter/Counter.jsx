@@ -75,11 +75,7 @@ const Counter = () => {
         </div>
 
         <div className="p-4 flex flex-col gap-3 bg-gray-300 rounded-lg flex-1 shadow-xl shadow-gray-400">
-          <img
-            src="/Public/assets/success-staffs.png "
-            alt=""
-            className="w-10"
-          />
+          <img src="/assets/success-staffs.png " alt="" className="w-10" />
           <div className="text-3xl font-bold">
             <CountUp
               start={1}
