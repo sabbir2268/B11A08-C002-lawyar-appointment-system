@@ -46,11 +46,11 @@ const LawyerDetails = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-5 items-center bg-gray-200 rounded-lg p-3 shadow-2xl">
+      <div className="flex flex-col gap-5 lg:grid md:grid-cols-5 items-center bg-gray-200 rounded-lg py-10 lg:p-3 shadow-2xl">
         <div className="col-span-2">
-          <img className="w-auto rounded-lg" src={image} alt="" />
+          <img className="lg:w-auto w-[400px] rounded-lg" src={image} alt="" />
         </div>
-        <div className="col-span-3 ml-20 lg:space-y-2">
+        <div className="col-span-3 lg:ml-20 lg:space-y-2">
           <div className="flex">
             <p className="bg-blue-200 text-sm lg:text-md  border-blue-500 border-2      rounded-2xl lg:p-1 ">
               {experience} experience
@@ -59,17 +59,17 @@ const LawyerDetails = () => {
 
           <h1 className="text-2xl lg:text-3xl font-bold my-2">{name}</h1>
           <div className="flex gap-20 my-5">
-            <p className="text-gray-600 ">{specialty}</p>
-            <p className="text-gray-600 ">
-              <span className="font-bo">Licence No: </span>
+            <p className="text-gray-600 text-xs lg:text-lg ">{specialty}</p>
+            <p className="text-gray-600 text-xs lg:text-lg">
+              <span className="font-bold text-md">Licence No: </span>
               {licenseNumber}
             </p>
           </div>
-          <p>
-            <span className="font-bold">Availability:</span>{" "}
+          <p className="flex items-center gap-4">
+            <span className="font-bold lg:text-lg text-xs ">Availability:</span>{" "}
             {availability.map((available, index) => (
               <span
-                className="lg:text-md bg-amber-100 border-2 border-amber-600 p-1 rounded-2xl mr-2 text-amber-600"
+                className="text-[8px] lg:text-lg bg-amber-100 border-2 border-amber-600 p-1 rounded-2xl mr-2 text-amber-600"
                 key={index}
                 available={available}
               >
@@ -77,7 +77,7 @@ const LawyerDetails = () => {
               </span>
             ))}
           </p>
-          <p className="mt-4">
+          <p className="mt-4 text-xs lg:text-lg">
             <span className="font-bold mr-5">Consultation Fee: </span>
             <span className="font-semibold text-green-600">{fee} Taka</span>
           </p>
@@ -86,12 +86,12 @@ const LawyerDetails = () => {
 
       <div className="my-10 bg-gray-50 p-10 flex flex-col rounded-lg shadow-2xl">
         <div className="text-center border-b-2 border-dashed border-gray-400 pb-2">
-          <h1 className="text-2xl">Book An Appoinment</h1>
+          <h1 className="text-lg lg:text-2xl font-bold">Book An Appoinment</h1>
         </div>
-        <div className="flex justify-between mt-5 border-b-2 border-gray-400 pb-4">
+        <div className="flex justify-between mt-5 border-b-2 border-gray-400 pb-4 text-[14px] lg:text-lg">
           <h1>Availability</h1>
           <p
-            className={`rounded-2xl p-1 lg:text-sm border-2 
+            className={`rounded-2xl p-1 text-[10px] lg:text-sm border-2 
               ${
                 isAvailable
                   ? "bg-green-200 border-green-500"

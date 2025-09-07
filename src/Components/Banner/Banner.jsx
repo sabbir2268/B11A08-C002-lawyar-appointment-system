@@ -9,15 +9,15 @@ const Banner = () => {
 
       <div className="card-body text-center flex items-center justify-center">
         <div className="space-y-10">
-          <h2 className="card-title text-3xl max-w-[60%] mx-auto">
-            It avoids subjective claims or exaggeration that might raise red
-            flags legally
+          <h2 className="card-title text-xl lg:text-3xl max-w-[60%] mx-auto">
+            Find the Right Lawyer, Book in Minutes ⚖️
           </h2>
-          <p className="max-w-[80%] mx-auto">
-            Our platform connects you with verified, experienced doctors across
-            various specialties — all at your convenience. Whether it's a
-            routine checkup or urgent consultation, book appointments in minutes
-            and receive quality care you can trust.
+          <p
+            className="max-w-[80%] mx-auto text-xs lg:textsm
+          "
+          >
+            Legal Help, Made Simple 👨‍⚖️ Search, compare, and book lawyers online.
+            Fast, secure, and reliable appointments.
           </p>
         </div>
       </div>
