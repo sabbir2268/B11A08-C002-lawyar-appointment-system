@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/LhqRKZqz/Lucid-Origin-a-lawyer-in-full-attire-standing-confidently-with-0.jpg",
+    "name": "John Carter",
+    "specialty": "Criminal Law",
+    "experience": "10+ years",
+    "licenseNumber": "CR-56789",
+    "fee": 150,
+    "availability": ["Monday", "Wednesday", "Friday"],
+    "isAvailable": true
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/M348gCv/Lucid-Origin-a-lawyer-in-full-attire-standing-confidently-in-a-0.jpg",
+    "name": "Sophia Mitchell",
+    "specialty": "Family Law",
+    "experience": "7+ years",
+    "licenseNumber": "FL-98321",
+    "fee": 120,
+    "availability": ["Tuesday", "Thursday", "Saturday"],
+    "isAvailable": true
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/fJ9BhLy/Lucid-Origin-a-lawyer-in-full-attire-standing-confidently-with-1.jpg",
+    "name": "David Johnson",
+    "specialty": "Corporate Law",
+    "experience": "12+ years",
+    "licenseNumber": "CL-45321",
+    "fee": 200,
+    "availability": ["Monday", "Tuesday", "Thursday"],
+    "isAvailable": true
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/wFBxPpyV/Lucid-Origin-a-cinematic-photo-of-A-Bangladeshi-women-lawyer-s-0.jpg",
+    "name": "Mahela Parvin",
+    "specialty": "Immigration Law",
+    "experience": "5+ years",
+    "licenseNumber": "IM-76543",
+    "fee": 100,
+    "availability": ["Wednesday", "Friday", "Sunday"],
+    "isAvailable": false
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/5WGvBCrG/Lucid-Origin-a-lawyer-in-full-attire-standing-confidently-with-3.jpg",
+    "name": "Michael Brown",
+    "specialty": "Intellectual Property Law",
+    "experience": "8+ years",
+    "licenseNumber": "IP-12987",
+    "fee": 180,
+    "availability": ["Tuesday", "Thursday", "Saturday"],
+    "isAvailable": true
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/gLWRqjSW/Lucid-Origin-a-cinematic-photo-of-A-Bangladeshi-women-lawyer-s-1.jpg",
+    "name": "Olivia Wilson",
+    "specialty": "Environmental Law",
+    "experience": "6+ years",
+    "licenseNumber": "EL-65432",
+    "fee": 140,
+    "availability": ["Monday", "Wednesday"],
+    "isAvailable": true
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/Y7NTBtwV/Lucid-Origin-a-lawyer-in-full-attire-standing-confidently-with-2.jpg",
+    "name": "James Anderson",
+    "specialty": "Tax Law",
+    "experience": "15+ years",
+    "licenseNumber": "TX-87456",
+    "fee": 220,
+    "availability": ["Tuesday", "Thursday"],
+    "isAvailable": true
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/prMqDcBz/Lucid-Origin-a-cinematic-photo-of-A-Bangladeshi-women-lawyer-s-2.jpg",
+    "name": "Sanjida Akter",
+    "specialty": "Human Rights Law",
+    "experience": "9+ years",
+    "licenseNumber": "HR-39485",
+    "fee": 160,
+    "availability": ["Monday", "Friday"],
+    "isAvailable": true
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/1NQnpW5/Lucid-Origin-A-smiling-lawyer-stands-confidently-in-a-courtroo-3.jpg",
+    "name": "William Thompson",
+    "specialty": "Civil Rights Law",
+    "experience": "11+ years",
+    "licenseNumber": "CV-88342",
+    "fee": 175,
+    "availability": ["Wednesday", "Saturday"],
+    "isAvailable": true
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/ch098hqh/Lucid-Origin-a-cinematic-photo-of-A-Bangladeshi-women-lawyer-s-3.jpg",
+    "name": "Israt Jahan",
+    "specialty": "Labor Law",
+    "experience": "4+ years",
+    "licenseNumber": "LB-23891",
+    "fee": 110,
+    "availability": ["Tuesday", "Thursday", "Sunday"],
+    "isAvailable": false
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/k2h7QJxN/Lucid-Origin-A-Bangladeshi-lawyer-stands-in-a-courtroom-wearin-2.jpg",
+    "name": "Abir Ahmed",
+    "specialty": "Bankruptcy Law",
+    "experience": "13+ years",
+    "licenseNumber": "BK-45673",
+    "fee": 190,
+    "availability": ["Monday", "Wednesday", "Friday"],
+    "isAvailable": true
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/1Y3Kvp4T/Lucid-Origin-A-Bangladeshi-lawyer-stands-in-a-courtroom-wearin-3.jpg",
+    "name": "Robiul Islam",
+    "specialty": "Elder Law",
+    "experience": "6+ years",
+    "licenseNumber": "ED-38941",
+    "fee": 130,
+    "availability": ["Tuesday", "Saturday"],
+    "isAvailable": false
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/YT2jx6Yc/Lucid-Origin-a-cinematic-photo-of-A-Bangladeshi-lawyer-stands-1.jpg",
+    "name": "Jamshed Hossain",
+    "specialty": "Entertainment Law",
+    "experience": "9+ years",
+    "licenseNumber": "EN-77492",
+    "fee": 210,
+    "availability": ["Thursday", "Friday"],
+    "isAvailable": false
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/0jpgjKkm/Lucid-Origin-a-cinematic-photo-of-A-Bangladeshi-lawyer-stands-3.jpg",
+    "name": "Akbar Chowdhury",
+    "specialty": "Constitutional Law",
+    "experience": "8+ years",
+    "licenseNumber": "CN-56382",
+    "fee": 170,
+    "availability": ["Monday", "Wednesday", "Sunday"],
+    "isAvailable": true
+  }
+]
